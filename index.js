@@ -36,6 +36,7 @@ app.get('/get-image/:filename', (req, res) => {
     res.sendFile(imagePath);
 });
 
+
 //levantar el servidor en el puerto 3000
 app.listen('3000');
 console.log('server up localhost:3000');
