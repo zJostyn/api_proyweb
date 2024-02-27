@@ -1,11 +1,7 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    host: '127.0.0.1',
-    user: 'postgres',
-    password: 'jostyn001',
-    database: 'proy_web',
-    port: '5432'
+    connectionString: 'postgres://proyweb_user:6Ay3HgZykEnlpoxuzlKwOjl23lUqxvVW@dpg-cmg040fqd2ns73a7mn5g-a/proyweb'
 });
 
 //Obtener todos los reportes abiertos
