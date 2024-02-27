@@ -1,7 +1,7 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    connectionString: 'postgres://proyweb_user:6Ay3HgZykEnlpoxuzlKwOjl23lUqxvVW@dpg-cmg040fqd2ns73a7mn5g-a/proyweb'
+    connectionString: 'postgres://proyweb_user:6Ay3HgZykEnlpoxuzlKwOjl23lUqxvVW@dpg-cmg040fqd2ns73a7mn5g-a.oregon-postgres.render.com/proyweb'
 });
 
 //Obtener los tipos de daños
