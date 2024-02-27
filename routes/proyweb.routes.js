@@ -13,6 +13,9 @@ var { getDetallesDaño } = require('../controllers/detallesdaños.controllers');
 
 var { getUbicaciones } = require('../controllers/ubicaciones.controllers');
 
+var { createPuntuacion, getPuntuaciones } = require('../controllers/retroalimentacion.controllers');
+
+
 //rutas de los endpoint
 router.get('/usuarios', getUsuarios);
 router.post('/usuario', createUsuario)
@@ -44,5 +47,7 @@ router.get('/tiposdanio', getTipoDaños);
 router.get('/detallesdanio/:id', getDetallesDaño);
 router.get('/ubicaciones', getUbicaciones);
 
+router.get('/puntuaciones', getPuntuaciones);
+router.post('/puntuacion', createPuntuacion);
 
 module.exports = router;
