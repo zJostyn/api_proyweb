@@ -1,7 +1,11 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    connectionString: 'postgres://proyweb_user:6Ay3HgZykEnlpoxuzlKwOjl23lUqxvVW@dpg-cmg040fqd2ns73a7mn5g-a.oregon-postgres.render.com/proyweb'
+    user: "zjostyn",
+    host: "dpg-cnfuv7en7f5s73fbpn30-a",
+    database: "proyweb_oabv",
+    password: "zMsrZiyXpfaWy9kbA68QdlukDxaHivEe",
+    port: 5432,
 });
 
 
