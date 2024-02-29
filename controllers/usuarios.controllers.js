@@ -1,11 +1,7 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    user: "zjostyn",
-    host: "dpg-cnfuv7en7f5s73fbpn30-a",
-    database: "proyweb_oabv",
-    password: "zMsrZiyXpfaWy9kbA68QdlukDxaHivEe",
-    port: 5432,
+    connectionString: 'postgres://zjostyn:zMsrZiyXpfaWy9kbA68QdlukDxaHivEe@dpg-cnfuv7en7f5s73fbpn30-a/proyweb_oabv'
 });
 
 //funcion para devolver todos los usuarios
